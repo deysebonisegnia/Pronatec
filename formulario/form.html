@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulário</title>
+    <link rel="stylesheet" href="form.css" />
+    <script
+      src="https://kit.fontawesome.com/f3897c2d3a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>&COPY;IDADE</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="/index.html">Moderna</a>
+          </li>
+          <li>
+            <a href="/antigas/antigas.html">Antigas</a>
+          </li>
+          <li>
+            <a href="/paraiso/paraiso .html">Paradisíacas</a>
+          </li>
+          <li>
+            <a href="/formulario/form.html">formulário</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Formulário</h2>
+      <form action="/home" method="post">
+        <fieldset>
+          <legend>Nome:</legend>
+          <label for="nome"></label>
+          <input type="text" id="nome" placeholder="Digite seu nome" />
+        </fieldset>
+        <fieldset>
+          <legend>E-mail:</legend>
+          <label for="email"></label>
+          <input type="email" id="email" placeholder="Digite seu Email" />
+        </fieldset>
+        <fieldset>
+          <legend>Deixe sua mensagem:</legend>
+          <label for="msg"></label>
+          <textarea
+            id="msg"
+            col="20"
+            row="20"
+            placeholder="Sua mensagem"
+          ></textarea>
+        </fieldset>
+        <div class="select">
+          <fieldset class="especie">
+            <label for="selected">Qual das cidades é sua favorita</label>
+            <select name="especie" id="especie">
+              <option value="humano">Modernas</option>
+              <option value="super-hunamo">Antigas</option>
+              <option value="de outro planeta">Paradisíacas</option>
+            </select>
+          </fieldset>
+        </div>
+        <div class="button">
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+    </main>
+    <footer class="contatos">
+      <h3>Contatos</h3>
+      <nav class="footer">
+        <ul>
+          <li>
+            <i class="fab fa-linkedin-in icon"></i>
+          </li>
+          <li>
+            <i class="fab fa-facebook-f icon"></i>
+          </li>
+          <li>
+            <i class="fab fa-github icon"></i>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
