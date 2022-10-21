@@ -72,6 +72,9 @@ nav ul li a:hover {
   width: 100vw;
   height: 50vh;
 }
+.carousel-item{
+  object-fit: contain;
+}
 h4 {
   text-align: center;
 }
